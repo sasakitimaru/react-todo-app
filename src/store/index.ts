@@ -1,9 +1,5 @@
 import {create} from 'zustand'
-
-type EditedTask = {
-    id: number;
-    title: string;
-}
+import { EditedTask } from '../types'
 
 type State = {
     editedTask: EditedTask;

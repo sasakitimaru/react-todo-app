@@ -5,6 +5,11 @@ export type Task = {
   updatedAt: Date;
 };
 
+export type EditedTask = {
+    id: number;
+    title: string;
+}
+
 export type CsrfToken = {
   csrfToken: string;
 };
